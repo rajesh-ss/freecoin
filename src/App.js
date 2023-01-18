@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import MyNavbar from "./components/Navbar/Navbar.js";
+import classes from './App.css';
+import AboutUs from './components/AboutUs.js';
+import Goals from './components/Goals.js'
+import Impact_eco from "./components/Impact_eco.js";
+import HowItWorks from "./components/HowItWorks.js";
+import OurNetwork from "./components/OurNetwork.js";
+import Footer from "./components/Footer/Footer.js"
+import Homepage from "./components/Homepage.js";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import Motivates from "./components/Motivates.js";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+
+<MyNavbar/>
+
+  <Homepage></Homepage>
+    <AboutUs/>
+    <Goals></Goals>
+    <Impact_eco></Impact_eco>
+   <HowItWorks></HowItWorks>
+   <Motivates/>
+   <OurNetwork></OurNetwork>
+   <Footer></Footer>
+    </>
 }
 
 export default App;

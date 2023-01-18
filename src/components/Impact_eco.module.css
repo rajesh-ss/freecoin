@@ -1,0 +1,25 @@
+.cont{
+
+    height: 100vh;
+    background-image: url('../assets/impact-eco.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    /* border: 10px solid black; */
+
+}
+
+.box h2{
+    letter-spacing: -2px;
+    color: #F2F2F2;
+    font: Helvetica Neue;
+    font-size: 70px;
+    
+}
+
+.box p{
+    letter-spacing: 0.56px;
+    color: #F2F2F2;
+    font: Helvetica Neue;
+    font-size: 18px;
+}

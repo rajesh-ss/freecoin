@@ -1,0 +1,225 @@
+
+
+.outCont{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    
+}
+
+.outCont >div{
+    
+    margin: 5% auto;
+    width: 85%;
+    box-sizing: border-box;
+    
+}
+
+.line{
+
+    color: #213A59;
+    margin: 4% 0;
+    height:5px;
+    width:100%;
+    border-top:5px solid #213A59;
+}
+
+.mainTxt{
+    color: #262626;
+    text-transform: uppercase;
+    font:Helvetica Neue;
+    letter-spacing: 4.32px;
+    font-size: 48px;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    margin: 0px;
+    padding: 0px;
+  }
+
+ li {
+    margin: 5% 0;
+    counter-increment: item;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    letter-spacing: 3.24px;
+    color: #262626;
+    font-style: normal;
+    width: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 0;
+
+  }
+
+  .insls{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 8%;
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .smbox2::before{
+
+    display: flex;
+    background-color: #2F84F1;
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    /* margin-right: 10px; */
+    /* margin-right: 5px; */
+    /* border-top: -5px solid #09A503;
+    border-bottom: -5px solid #09A503;
+    border-right: 8px solid #09A503;
+    border-left: 8px solid #09A503; */
+  }
+
+  .smbox::before{
+
+    display: flex;
+    background-color: #09A503;
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    /* margin-right: 5px; */
+    /* border-top: -5px solid #09A503;
+    border-bottom: -5px solid #09A503;
+    border-right: 8px solid #09A503;
+    border-left: 8px solid #09A503; */
+    
+  
+  }
+  .smbox{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+
+  .smbox2{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    box-sizing: border-box;
+  
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+
+  .smbox p,  .smbox2 p{
+    /* border: 1px solid blue; */
+    max-width: 100%;
+    margin: auto 0;
+    margin-left: 10px;
+    
+  }
+
+
+  li span{
+    margin: 0 5%;
+
+  }
+
+  li:before {
+    color: #262626;
+    text-transform: uppercase;
+    font:Helvetica Neue;
+    letter-spacing: 4.32px;
+    font-size: 48px;
+    content: ""counter(item)".";
+    margin-left: 0px;
+    font-style: bold;
+    letter-spacing: 6.48px;
+   
+    /* margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block; */
+
+  }
+ 
+
+  @media only screen and (max-width: 1100px) {
+  
+    .insls{
+        flex-direction: column;
+        margin-left: 16%;
+        width: 70%;
+     
+    }
+    
+
+    .smbox2{
+        justify-content: flex-start;
+    
+    }
+
+    .smbox{
+        justify-content: flex-start;
+ 
+    }
+
+    .smbox p,  .smbox2 p{
+        /* border: 1px solid blue; */
+        max-width: 100%;
+        margin: 2% 0;
+        margin-left: 2%;
+     
+      }
+
+      .outCont{
+        
+        margin-bottom: 20%;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 800px) {
+  
+
+    .insls{
+        /* border: 10px solid rgb(245, 222, 17); */
+        /* margin: 10% 0; */
+        margin-top: 5%;
+        margin-bottom: 5%;
+        box-sizing: border-box;
+        max-width: 100%;
+      
+
+    }
+    .mainTxt{
+        text-align: center;
+    }
+
+    .outCont >div{
+    
+        margin: 5% auto;
+        width: 85%;
+        /* border: 1px solid black; */
+    }
+
+    li {
+        width: 80%;
+        /* border: 2px solid violet; */
+    }
+
+    .outCont{
+        
+        margin-bottom: 30%;
+    }
+  }
