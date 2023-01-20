@@ -5,7 +5,7 @@ const Homepage = ()=>{
 
     return (
         <div className={classes.homepage} id='home'>
-            <h1>IMPACT ECOSYSTEM</h1>
+            <p><span id={classes.impab}>IMPACT</span> ECOSYSTEM</p>
         </div>
     )
 }

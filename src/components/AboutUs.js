@@ -4,7 +4,7 @@ import classes from './AboutUs.module.css';
 
 const AboutUs = ()=>{
 
-    const custom = classes.cont+' mb-5 mt-5'
+    const custom = classes.cont+' mt-5 mb-0 mt-md-0' 
 return(
 <>
     <div className={custom} id='about'>

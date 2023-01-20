@@ -11,7 +11,7 @@ const Goals = ()=>{
   const custom =  'd-inline-block '+classes.imger;
 
   return (
-    <div  className='d-flex flex-column flex-lg-row justify-content-between align-items-center mt-5 mb-5 mr-0 ml-0'> 
+    <div  className='d-flex flex-column flex-lg-row justify-content-between align-items-center mt-3 mt-md-0 mb-5 mb-md-0  mr-0 ml-0'> 
       
       <div className=' p-3'>
         <h2 className='text-justify'>OUR GOALS</h2>

@@ -22,7 +22,7 @@ const Footer = () => {
             <div className='d-flex flex-md-column align-items-md-start '>
                 <a  className='m-md-0 m-2' href='#home'>Home</a>
                 <a  className='m-md-0 m-2' href='#Our Vision'>Our Vision</a>
-                <a  className='m-md-0 m-2' href='#About Us'>About Us</a>
+                <a  className='m-md-0 m-2' href='#about'>About Us</a>
             </div>
           </div>
 

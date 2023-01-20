@@ -10,7 +10,7 @@
     background-size: cover;
     -ms-background-position-x: center;
     -ms-background-position-y: top;
-    background-position: left top;
+    background-position: center top;
     /* margin: 5% 0; */
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 
-.homepage h1{
+.homepage p{
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
     font-size: 5rem;
@@ -30,6 +30,12 @@
     color: #F2F2F2;
     margin: 0;
     /* border: 1px solid black; */
+    font-weight: normal;
+}
+
+#impab{
+    /* border: 1px solid black; */
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
@@ -40,17 +46,7 @@
         margin-bottom: 15%;
     }
 
-    .homepage{
- 
+    .homepage p{
+        font-size: 4rem;
     }
-
-    .homeTxt h2{
-
-
-
-    }
-    .homeTxt p{
-
-    }
- 
 }
