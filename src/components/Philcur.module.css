@@ -58,11 +58,11 @@
 
     .homeTxt h2{
 
-
+        font-size: 3rem;
 
     }
     .homeTxt p{
-
+        font-size: .8rem;
     }
  
 }
