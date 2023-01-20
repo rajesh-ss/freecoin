@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/freecoin/static/css/main.34757e99.css",
-    "main.js": "/freecoin/static/js/main.c3f65e83.js",
+    "main.css": "/freecoin/static/css/main.953d8eff.css",
+    "main.js": "/freecoin/static/js/main.e2e762ac.js",
     "static/js/787.b0723118.chunk.js": "/freecoin/static/js/787.b0723118.chunk.js",
+    "static/media/hom.png": "/freecoin/static/media/hom.1e4d523414e6a97e43e5.png",
     "static/media/impact-eco.png": "/freecoin/static/media/impact-eco.3242dbe3d88f3c483e00.png",
     "static/media/MaskGroup5.png": "/freecoin/static/media/MaskGroup5.95d2f66a9cf9ba52732c.png",
     "static/media/img3.png": "/freecoin/static/media/img3.1d4530758a5168640490.png",
     "static/media/mot1.png": "/freecoin/static/media/mot1.cfa329704f9b600984d6.png",
+    "static/media/img7.png": "/freecoin/static/media/img7.ae1babb86d6e72f1d580.png",
     "static/media/mot4.png": "/freecoin/static/media/mot4.4c18c881ba185855308a.png",
     "static/media/img1.png": "/freecoin/static/media/img1.399cfaf0d773c52e232a.png",
     "static/media/mot3.png": "/freecoin/static/media/mot3.0a36a7d6d8f4d217cc76.png",
@@ -21,12 +23,12 @@
     "static/media/Group-64.png": "/freecoin/static/media/Group-64.41d27c701983121cb8e3.png",
     "static/media/Group78.svg": "/freecoin/static/media/Group78.b9144328d32f426b4a803489a8eaf453.svg",
     "index.html": "/freecoin/index.html",
-    "main.34757e99.css.map": "/freecoin/static/css/main.34757e99.css.map",
-    "main.c3f65e83.js.map": "/freecoin/static/js/main.c3f65e83.js.map",
+    "main.953d8eff.css.map": "/freecoin/static/css/main.953d8eff.css.map",
+    "main.e2e762ac.js.map": "/freecoin/static/js/main.e2e762ac.js.map",
     "787.b0723118.chunk.js.map": "/freecoin/static/js/787.b0723118.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34757e99.css",
-    "static/js/main.c3f65e83.js"
+    "static/css/main.953d8eff.css",
+    "static/js/main.e2e762ac.js"
   ]
 }
