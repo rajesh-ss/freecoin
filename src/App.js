@@ -1,29 +1,35 @@
 import MyNavbar from "./components/Navbar/Navbar.js";
-import classes from './App.css';
-import AboutUs from './components/AboutUs.js';
-import Goals from './components/Goals.js'
+import classes from "./App.css";
+import AboutUs from "./components/AboutUs.js";
+import Goals from "./components/Goals.js";
 import Impact_eco from "./components/Impact_eco.js";
 import HowItWorks from "./components/HowItWorks.js";
 import OurNetwork from "./components/OurNetwork.js";
-import Footer from "./components/Footer/Footer.js"
-import Homepage from "./components/Homepage.js";
+import Footer from "./components/Footer/Footer.js";
+import Philcur from "./components/Philcur.js";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Motivates from "./components/Motivates.js";
+import Homepage from "./components/Homepage.js";
+import NewsLetter from "./components/NewsLetter.js";
 
 function App() {
-  return <>
+  return (
+    <>
+      <MyNavbar />
 
-<MyNavbar/>
-
-  <Homepage></Homepage>
-    <AboutUs/>
-    <Goals></Goals>
-    <Impact_eco></Impact_eco>
-   <HowItWorks></HowItWorks>
-   <Motivates/>
-   <OurNetwork></OurNetwork>
-   <Footer></Footer>
+      <Homepage></Homepage>
+     
+      <AboutUs />
+      <Goals></Goals>
+      <Philcur></Philcur>
+      {/* <Impact_eco></Impact_eco> */}
+      <HowItWorks></HowItWorks>
+      <Motivates />
+      <OurNetwork></OurNetwork>
+      <NewsLetter></NewsLetter>
+      <Footer></Footer>
     </>
+  );
 }
 
 export default App;

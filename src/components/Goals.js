@@ -11,7 +11,7 @@ const Goals = ()=>{
   const custom =  'd-inline-block '+classes.imger;
 
   return (
-    <div  className='d-flex flex-column flex-lg-row justify-content-between align-items-center mt-5 mb-5'> 
+    <div  className='d-flex flex-column flex-lg-row justify-content-between align-items-center mt-5 mb-5 mr-0 ml-0'> 
       
       <div className=' p-3'>
         <h2 className='text-justify'>OUR GOALS</h2>
@@ -26,7 +26,7 @@ const Goals = ()=>{
   //  style="max-width:100%; max-height:200px !important;"
    >
                {/* <Carousel.Indicators></Carousel.Indicators>  */}
-            <Carousel.Item className='border border-primary '>
+            <Carousel.Item className=' '>
         <img
           className="d-block img-fluid"
           src={img1}

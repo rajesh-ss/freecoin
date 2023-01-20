@@ -1,7 +1,7 @@
 
 
 .outCont{
-    height: 100%;
+    height: auto;
     width: 100%;
     /* border: 1px solid black; */
     box-sizing: border-box;
@@ -158,18 +158,28 @@ ol {
     .insls{
         flex-direction: column;
         margin-left: 16%;
-        width: 70%;
+        width: 80%;
+        /* border: 1px solid black; */
      
+    }
+
+    .outCont{
+    
+      padding: 0;
+
     }
     
 
     .smbox2{
         justify-content: flex-start;
+     
+    
     
     }
 
     .smbox{
         justify-content: flex-start;
+        /* border: 1px solid black; */
  
     }
 
@@ -185,6 +195,15 @@ ol {
         
         margin-bottom: 20%;
     }
+
+
+ li {
+    justify-content: flex-start;
+    margin: 30px 0;
+/* 
+    border: 1px solid black; */
+    box-sizing: border-box;
+ }
     
   }
 
@@ -192,14 +211,25 @@ ol {
   @media only screen and (max-width: 800px) {
   
 
+
+  .outCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid rgb(245, 222, 17); */
+    padding: 0;
+  }
+
     .insls{
         /* border: 10px solid rgb(245, 222, 17); */
         /* margin: 10% 0; */
         margin-top: 5%;
         margin-bottom: 5%;
         box-sizing: border-box;
-        max-width: 100%;
-      
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+       
 
     }
     .mainTxt{
@@ -214,12 +244,15 @@ ol {
     }
 
     li {
-        width: 80%;
+        width: 100%;
         /* border: 2px solid violet; */
+        flex: 1;
+        height: auto;
     }
 
     .outCont{
         
         margin-bottom: 30%;
+        
     }
   }

@@ -5,6 +5,7 @@ import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
 import img5 from '../assets/img5.png'
 import img6 from '../assets/img6.png'
+import img7 from '../assets/img7.png'
 
 const OurNetwork = ()=>{
 
@@ -24,7 +25,7 @@ const OurNetwork = ()=>{
 
           <div className= "col-lg-4 col-xs-6 mb-2 mt-2 mw-100" >
             <div class={conta}>
-                <img className='img-fluid' src={img1}></img>
+                <img className='img-fluid' src={img6}></img>
                 <div className={classes.cardText}>
                 <h3 >INDIVIDUALS</h3>
                 </div>
@@ -79,7 +80,7 @@ const OurNetwork = ()=>{
 
           <div className= "col-lg-4 col-xs-6 mb-2 mt-2 mw-100" >
             <div class={conta}>
-                <img className='img-fluid' src={img6}></img>
+                <img className='img-fluid' src={img7}></img>
                 <div className={classes.cardText}>
                 <h3 >ENVIRONMENTAL ACCOUNTANTS</h3>
                 </div>

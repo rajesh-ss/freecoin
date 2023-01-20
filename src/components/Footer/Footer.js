@@ -18,7 +18,7 @@ const Footer = () => {
           <img className={classes.remImg} src={logo}/>
           </div>
 
-          <div className="col-md-2 text-light d-flex justify-content-md-center  mb-3  mb-md-0 mt-3  mt-md-0">
+          <div className="col-md-2 text-light d-flex justify-content-md-center align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
             <div className='d-flex flex-md-column align-items-md-start '>
                 <a  className='m-md-0 m-2' href='#home'>Home</a>
                 <a  className='m-md-0 m-2' href=''>Our Vision</a>
@@ -26,14 +26,14 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-md-2 text-light  d-flex justify-content-md-start  mb-3  mb-md-0 mt-3  mt-md-0">
+          <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
           <div className='d-flex flex-md-column flex-row align-items-md-start'>
                 <a  className='m-md-0 m-2' href='#How it Works'>How it works</a>
                 <a  className='m-md-0 m-2' href='#Our network'>Our network</a>
             </div>
           </div>
           
-          <div className="col-md-2 text-light  d-flex justify-content-md-start  mb-3  mb-md-0 mt-3  mt-md-0">
+          <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
           <div className='d-flex flex-md-column flex-row align-items-md-start'>
                 <a  className='m-md-0 m-2' href=''>Terms and conditions</a>
                 <a  className='m-md-0 m-2' href=''>Privacy policy</a>

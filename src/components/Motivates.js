@@ -48,7 +48,7 @@ const custom = classes.cont+' mt-5';
   return (
     <div className={custom}>
       <h1 className="text-center  mb-3">WHAT MOTIVATES US?</h1>
-      <div className="container">
+      <div className="container mt-md-5 ">
         <div className="row">
           <div className="col-md-1 mb-5 mb-md-0">
             <div className={classes.arrw}>

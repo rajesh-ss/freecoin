@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 import logo from '../../assets/Group78.svg';
 
 
+
 const MyNavbar = ()=>{
 
 
@@ -36,11 +37,11 @@ const MyNavbar = ()=>{
         <Navbar.Collapse id="navbarScroll">
           <Nav
           
-            className="my-2 my-lg-0 ms-auto "
+            className="my-2 my-lg-0 ms-auto toggleLink"
             style={{ maxHeight: '500px' }}
             navbarScroll>
 
-            <Nav.Link  className= 'nav-txt' href="#home">About Us</Nav.Link>
+            <Nav.Link  className= 'nav-txt ' href="#home">About Us</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#How it Works">How it Works</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#Our Vision">Our Vision</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#Our network">Our network</Nav.Link>

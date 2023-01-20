@@ -7,7 +7,7 @@ const AboutUs = ()=>{
     const custom = classes.cont+' mb-5 mt-5'
 return(
 <>
-    <div className={custom}>
+    <div className={custom} id='about'>
         <h2 className='container-md text-center'>Introducing</h2>
         <h1 className='container-md text-center '>IE.Money</h1>
         <p className='container-sm text-center '>A Holistic Solution that includes Revenue Streams for Ecosystem Service Stakeholders & Income for Natural Capital Owners</p>

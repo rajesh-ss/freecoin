@@ -5,59 +5,52 @@
 
 .homepage{
     height: 100vh;
-    max-width: 100vw;
-    background-image: url('../assets/MaskGroup5.png');
+    width: 100%;
+    background-image: url('../assets/hom.png');
     background-size: cover;
+    -ms-background-position-x: center;
+    -ms-background-position-y: top;
+    background-position: left top;
     /* margin: 5% 0; */
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 2%;
+    /* border: 1px solid black; */
 }
 
-.homeTxt{
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
-}
 
-.homeTxt h2{
+.homepage h1{
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
     font-size: 5rem;
     font-family: Helvetica Neue;
     letter-spacing: -2px;
     color: #F2F2F2;
+    margin: 0;
     /* border: 1px solid black; */
-}
-
-.homeTxt p{
-    color: var(--unnamed-color-f2f2f2);
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: Helvetica Neue;
-    letter-spacing: -2px;
-    color: #F2F2F2;
 }
 
 @media only screen and (max-width: 800px) {
 
+
     .homeTxt{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        /* border: 1px solid black; */
-        margin-left: -50px;
-        max-width: 100%;
+
+        margin-bottom: 15%;
     }
 
     .homepage{
-        padding: 0;
+ 
     }
 
     .homeTxt h2{
-        font-size: 4rem;
+
+
+
     }
     .homeTxt p{
-        font-size: 1rem;
+
     }
  
 }
