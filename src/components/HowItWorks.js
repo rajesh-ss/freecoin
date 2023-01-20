@@ -5,7 +5,7 @@ const HowItWorks = () =>{
 
     return (
 
-        <div className={classes.outCont} id='How it Works'> 
+        <div className={classes.outCont}   id='How it Works'> 
             <div >
             <h2 className={classes.mainTxt}>HOW IT WORKS</h2>
             <hr className={classes.line}/>

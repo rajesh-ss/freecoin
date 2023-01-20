@@ -21,22 +21,61 @@ const Footer = () => {
           <div className="col-md-2 text-light d-flex justify-content-md-center align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
             <div className='d-flex flex-md-column align-items-md-start '>
                 <a  className='m-md-0 m-2' href='#home'>Home</a>
-                <a  className='m-md-0 m-2' href='#Our Vision'>Our Vision</a>
-                <a  className='m-md-0 m-2' href='#about'>About Us</a>
+                <a  className='m-md-0 m-2' 
+                
+                // href='#Our Vision'
+                
+                // onClick={
+                //   ()=>{window.scrollTo(0, document.getElementById("Our Vision").offsetTop-100)  }
+                // }
+
+                onClick={
+                  ()=>{window.scrollTo({
+                    top: document.getElementById("Our Vision").offsetTop-100,
+                    behavior: "auto"
+                  }) }
+                }
+
+                >Our Vision</a>
+                <a  className='m-md-0 m-2' 
+                // href='#about'
+                onClick={
+                  ()=>{window.scrollTo(0, document.getElementById("about").offsetTop-100)  }
+                }
+                
+                >About Us</a>
             </div>
           </div>
 
           <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
           <div className='d-flex flex-md-column flex-row align-items-md-start'>
-                <a  className='m-md-0 m-2' href='#How it Works'>How it works</a>
-                <a  className='m-md-0 m-2' href='#Our network'>Our network</a>
+                <a  className='m-md-0 m-2' 
+                // href='#How it Works'
+                onClick={
+                  ()=>{window.scrollTo(0, document.getElementById("How it Works").offsetTop-100)  }
+                }
+
+                >How it works</a>
+                <a  className='m-md-0 m-2' 
+                // href='#Our network'
+                // onClick={
+                //   ()=>{window.scrollTo(0, document.getElementById("Our network").offsetTop-100)  }
+                // }
+                onClick={
+                  ()=>{window.scrollTo({
+                    top: document.getElementById("Our network").offsetTop-100,
+                    behavior: "smooth"
+                  }) }
+                }
+
+                >Our network</a>
             </div>
           </div>
           
           <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
           <div className='d-flex flex-md-column flex-row align-items-md-start'>
-                <a  className='m-md-0 m-2' href=''>Terms and conditions</a>
-                <a  className='m-md-0 m-2' href=''>Privacy policy</a>
+                <a  className='m-md-0 m-2' href='#'>Terms and conditions</a>
+                <a  className='m-md-0 m-2' href='#'>Privacy policy</a>
             </div>
           </div>
 
