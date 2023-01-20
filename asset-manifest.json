@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/freecoin/static/css/main.a3fcac39.css",
-    "main.js": "/freecoin/static/js/main.77c68b5a.js",
+    "main.css": "/freecoin/static/css/main.efed6e74.css",
+    "main.js": "/freecoin/static/js/main.16105ec6.js",
     "static/js/787.b0723118.chunk.js": "/freecoin/static/js/787.b0723118.chunk.js",
     "static/media/hom.png": "/freecoin/static/media/hom.1e4d523414e6a97e43e5.png",
     "static/media/impact-eco.png": "/freecoin/static/media/impact-eco.3242dbe3d88f3c483e00.png",
@@ -23,12 +23,12 @@
     "static/media/Group-64.png": "/freecoin/static/media/Group-64.41d27c701983121cb8e3.png",
     "static/media/Group78.svg": "/freecoin/static/media/Group78.b9144328d32f426b4a803489a8eaf453.svg",
     "index.html": "/freecoin/index.html",
-    "main.a3fcac39.css.map": "/freecoin/static/css/main.a3fcac39.css.map",
-    "main.77c68b5a.js.map": "/freecoin/static/js/main.77c68b5a.js.map",
+    "main.efed6e74.css.map": "/freecoin/static/css/main.efed6e74.css.map",
+    "main.16105ec6.js.map": "/freecoin/static/js/main.16105ec6.js.map",
     "787.b0723118.chunk.js.map": "/freecoin/static/js/787.b0723118.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fcac39.css",
-    "static/js/main.77c68b5a.js"
+    "static/css/main.efed6e74.css",
+    "static/js/main.16105ec6.js"
   ]
 }
