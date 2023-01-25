@@ -28,10 +28,11 @@
 }
 
 .cont p{
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 0.64px;
     color: #262626;
     max-width: 40%;
+    margin-top: 15px;
 }
 
 .cont button{

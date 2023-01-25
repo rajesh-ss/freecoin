@@ -43,11 +43,11 @@ const MyNavbar = () => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("How it Works").offsetTop - 100
+                    document.getElementById("about").offsetTop - 100
                   );
                 }}
               >
-                How it Works
+                About Us
               </Nav.Link>
               <Nav.Link
                 className="nav-txt"
@@ -55,11 +55,11 @@ const MyNavbar = () => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("Our Vision").offsetTop - 100
+                    document.getElementById("How it Works").offsetTop - 100
                   );
                 }}
               >
-                Our Vision
+                How it Works
               </Nav.Link>
               <Nav.Link
                 className="nav-txt"
