@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/freecoin/static/css/main.efed6e74.css",
-    "main.js": "/freecoin/static/js/main.16105ec6.js",
+    "main.css": "/freecoin/static/css/main.32672959.css",
+    "main.js": "/freecoin/static/js/main.c36ee08a.js",
     "static/js/787.b0723118.chunk.js": "/freecoin/static/js/787.b0723118.chunk.js",
     "static/media/hom.png": "/freecoin/static/media/hom.1e4d523414e6a97e43e5.png",
     "static/media/impact-eco.png": "/freecoin/static/media/impact-eco.3242dbe3d88f3c483e00.png",
@@ -13,22 +13,22 @@
     "static/media/img1.png": "/freecoin/static/media/img1.399cfaf0d773c52e232a.png",
     "static/media/mot3.png": "/freecoin/static/media/mot3.0a36a7d6d8f4d217cc76.png",
     "static/media/mot2.png": "/freecoin/static/media/mot2.d9a06f7dd468870f10dc.png",
-    "static/media/img5.png": "/freecoin/static/media/img5.bea4fce05e4ee680306b.png",
     "static/media/footer.jpg": "/freecoin/static/media/footer.65978f9acc97f4cd5a73.jpg",
     "static/media/img4.png": "/freecoin/static/media/img4.09409b337887d1e316cf.png",
     "static/media/img6.png": "/freecoin/static/media/img6.4922d1c357f05194f4f7.png",
     "static/media/img2.png": "/freecoin/static/media/img2.826360e53e34100e1043.png",
     "static/media/Group-63.png": "/freecoin/static/media/Group-63.970f51e6ff6decd1a7f0.png",
     "static/media/Group-65.png": "/freecoin/static/media/Group-65.7e2d56f815f542a275b2.png",
+    "static/media/Bussiness.png": "/freecoin/static/media/Bussiness.4633b33407a7774579ef.png",
     "static/media/Group-64.png": "/freecoin/static/media/Group-64.41d27c701983121cb8e3.png",
     "static/media/Group78.svg": "/freecoin/static/media/Group78.b9144328d32f426b4a803489a8eaf453.svg",
     "index.html": "/freecoin/index.html",
-    "main.efed6e74.css.map": "/freecoin/static/css/main.efed6e74.css.map",
-    "main.16105ec6.js.map": "/freecoin/static/js/main.16105ec6.js.map",
+    "main.32672959.css.map": "/freecoin/static/css/main.32672959.css.map",
+    "main.c36ee08a.js.map": "/freecoin/static/js/main.c36ee08a.js.map",
     "787.b0723118.chunk.js.map": "/freecoin/static/js/787.b0723118.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efed6e74.css",
-    "static/js/main.16105ec6.js"
+    "static/css/main.32672959.css",
+    "static/js/main.c36ee08a.js"
   ]
 }
