@@ -18,14 +18,14 @@ function App() {
       <MyNavbar />
 
       <Homepage></Homepage>
-     
+
       <AboutUs />
       <Goals></Goals>
       <Philcur></Philcur>
-      {/* <Impact_eco></Impact_eco> */}
+      {/* <Impact_eco /> */}
       <HowItWorks></HowItWorks>
-      <Motivates />
-      <OurNetwork></OurNetwork>
+      {/* <Motivates /> */}
+      <OurNetwork />
       <NewsLetter></NewsLetter>
       <Footer></Footer>
     </div>
