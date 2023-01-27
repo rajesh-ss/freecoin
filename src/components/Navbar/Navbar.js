@@ -67,11 +67,11 @@ const MyNavbar = () => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("Our Network").offsetTop - 100
+                    document.getElementById("Our network").offsetTop - 100
                   );
                 }}
               >
-                Our network
+                Our Network
               </Nav.Link>
               <button type="button" className="btn-waitlist nav-txt">
                 Join our  Waitlist
