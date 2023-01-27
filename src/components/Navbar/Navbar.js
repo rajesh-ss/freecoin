@@ -18,7 +18,7 @@ const MyNavbar = () => {
             <Nav.Link  className= 'nav-txt' href="#home">About Us</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#features">How it Works</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#pricing">Our Vision</Nav.Link>
-            <Nav.Link className= 'nav-txt' href="#pricing">Our network</Nav.Link>
+            <Nav.Link className= 'nav-txt' href="#pricing">Our Network</Nav.Link>
           </Nav>
         </Container>
       </Navbar> */}
@@ -67,7 +67,7 @@ const MyNavbar = () => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("Our network").offsetTop - 100
+                    document.getElementById("Our Network").offsetTop - 100
                   );
                 }}
               >
