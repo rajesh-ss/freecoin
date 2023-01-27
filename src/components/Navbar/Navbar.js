@@ -74,7 +74,7 @@ const MyNavbar = () => {
                 Our network
               </Nav.Link>
               <button type="button" className="btn-waitlist nav-txt">
-                Join our waitlist
+                Join our  Waitlist
               </button>
             </Nav>
           </Navbar.Collapse>

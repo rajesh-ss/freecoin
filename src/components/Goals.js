@@ -31,9 +31,7 @@ const Goals = () => {
           //  style="max-width:100%; max-height:200px !important;"
         >
           {/* <Carousel.Indicators></Carousel.Indicators>  */}
-          <Carousel.Item className=" ">
-            <img className="d-block img-fluid" src={img1} alt="First slide" />
-          </Carousel.Item>
+          
           <Carousel.Item>
             <img className="d-block img-fluid" src={img1} alt="First slide" />
           </Carousel.Item>
