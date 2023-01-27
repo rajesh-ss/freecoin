@@ -16,7 +16,7 @@ const AboutUs = () => {
           type="button"
           class="btn mt-md-5 btn-sm container-md text-center"
         >
-          Join The Waitlist
+          Join our Waitlist
         </button>
       </div>
     </>
