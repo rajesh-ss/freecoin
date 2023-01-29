@@ -18,7 +18,7 @@ const MyNavbar = () => {
             <Nav.Link  className= 'nav-txt' href="#home">About Us</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#features">How it Works</Nav.Link>
             <Nav.Link className= 'nav-txt' href="#pricing">Our Vision</Nav.Link>
-            <Nav.Link className= 'nav-txt' href="#pricing">Our network</Nav.Link>
+            <Nav.Link className= 'nav-txt' href="#pricing">Our Network</Nav.Link>
           </Nav>
         </Container>
       </Navbar> */}
@@ -71,7 +71,7 @@ const MyNavbar = () => {
                   );
                 }}
               >
-                Our network
+                Our Network
               </Nav.Link>
               <button type="button" className="btn-waitlist nav-txt">
                 Join our Waitlist

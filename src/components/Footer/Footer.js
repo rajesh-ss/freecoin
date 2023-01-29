@@ -78,7 +78,7 @@ const Footer = () => {
                   });
                 }}
               >
-                Our network
+                Our Network
               </a>
             </div>
           </div>
