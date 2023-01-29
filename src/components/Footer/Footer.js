@@ -99,8 +99,11 @@ const Footer = () => {
 
         <div className="d-flex flex-md-row  align-items-md-center align-items-start justify-content-center justify-content-md-start mb-4">
           <img className="m-1" src={faceBook} />
+
           <img className="m-1" src={twitter} />
+
           <img className="m-1" src={linkdin} />
+          
           <img className="m-1" src={instagram} />
         </div>
       </div>

@@ -1,4 +1,5 @@
 
+
 .cont{
 
     width: 100%;
@@ -12,7 +13,7 @@
 }
 
 .cont h2, .cont h1, .cont p{
-    font-family:Helvetica Neue;
+    font-family:"HelveticaBold1";
 }
 
 .cont h2{

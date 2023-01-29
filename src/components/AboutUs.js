@@ -3,6 +3,7 @@ import classes from "./AboutUs.module.css";
 const AboutUs = () => {
   const custom = classes.cont + " mt-5 mb-0 mt-md-0";
   return (
+    
     <>
       <div className={custom} id="about">
         <h2 className="container-md text-center">Introducing</h2>

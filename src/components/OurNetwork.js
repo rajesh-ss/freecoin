@@ -13,7 +13,7 @@ const OurNetwork = () => {
   const conta = classes.ImgCont + " thumbnail ";
 
   return (
-    <div className={classes.cont} id="Our network">
+    <div className={classes.cont} id="Our Network">
       <div>
         <h3 className={classes.mainTxt}>OUR NETWORK</h3>
         <hr className={classes.line} />
@@ -22,35 +22,27 @@ const OurNetwork = () => {
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img6}></img>
-                <div className={classes.cardText}>
-                  <h3>INDIVIDUALS</h3>
-                </div>
+                
               </div>
             </div>
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img2}></img>
-                <div className={classes.cardText}>
-                  <h3>NGOs AND NON PROFIT ORGANIZATIONS</h3>
-                </div>
+                
               </div>
             </div>
 
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img3}></img>
-                <div className={classes.cardText}>
-                  <h3>LANDOWNERS-ENVIRONMENTAL SERVICE PROVIDERS</h3>
-                </div>
+                
               </div>
             </div>
 
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img4}></img>
-                <div className={classes.cardText}>
-                  <h3>IMPACT INVESTORS</h3>
-                </div>
+                
               </div>
             </div>
 
@@ -63,9 +55,7 @@ const OurNetwork = () => {
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img7}></img>
-                <div className={classes.cardText}>
-                  <h3>ENVIRONMENTAL ACCOUNTANTS</h3>
-                </div>
+                
               </div>
             </div>
           </div>

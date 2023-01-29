@@ -63,18 +63,18 @@ const MyNavbar = () => {
               </Nav.Link>
               <Nav.Link
                 className="nav-txt"
-                // href="#Our network"
+                // href="#Our Network"
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("Our network").offsetTop - 100
+                    document.getElementById("Our Network").offsetTop - 100
                   );
                 }}
               >
                 Our network
               </Nav.Link>
               <button type="button" className="btn-waitlist nav-txt">
-                Join our  Waitlist
+                Join our Waitlist
               </button>
             </Nav>
           </Navbar.Collapse>

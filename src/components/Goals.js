@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import img1 from "../assets/Group-64.png";
 import img2 from "../assets/Group-63.png";
 import img3 from "../assets/Group-65.png";
+import img4 from "../assets/Group-66.png";
 
 const Goals = () => {
   const custom = "d-inline-block " + classes.imger;
@@ -40,6 +41,9 @@ const Goals = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block img-fluid" src={img3} alt="Third slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block img-fluid" src={img4} alt="Fourth slide" />
           </Carousel.Item>
         </Carousel>
       </div>
@@ -92,6 +96,11 @@ export default Goals;
         <div className='m-2 ml-2'>
         
             <img className = {classes.myimg} src={img3}></img>
+     
+        </div>
+        <div className='m-2 ml-2'>
+        
+            <img className = {classes.myimg} src={img4}></img>
      
         </div>
 */
