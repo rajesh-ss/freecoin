@@ -10,7 +10,7 @@ const Philcur = ()=>{
    <div className={classes.homepage} id='Our Vision'>
    <div className={attr}>
       <h2>The Philanthropic Currency</h2>
-      <p>powered by impact investments, Natural Capital & Team Humanity</p>
+      <p>powered by Impact Investments, Natural Capital & Team Humanity</p>
    </div>
     </div>
     );

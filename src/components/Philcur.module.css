@@ -1,7 +1,7 @@
-
-/* *{
-    font:Helvetica Neue;
-} */
+@font-face {
+    font-family: "helllight";
+    src: url(/HelveticaNeue\ Light.ttf);
+}
 
 .homepage{
     height: 100vh;
@@ -21,14 +21,17 @@
 
 .homeTxt{
 
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    
 }
 
 .homeTxt h2{
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
-    font-size: 5rem;
-    font-family: Helvetica Neue;
+    font-size: 80px;
+    font-family: "helllight";
+    font-weight: 400;
+
     letter-spacing: -2px;
     color: #F2F2F2;
     margin: 0;
@@ -39,8 +42,8 @@
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
     font-size: 1.5rem;
-    font-family: Helvetica Neue;
-    letter-spacing: -2px;
+    font-family: "helllight";
+    letter-spacing: 1px;
     color: #F2F2F2;
 }
 

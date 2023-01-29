@@ -16,26 +16,10 @@ const Footer = () => {
             <img className={classes.remImg} src={logo} />
           </div>
 
-          <div className="col-md-2 text-light d-flex justify-content-md-center align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
+          <div className="col-md-2 text-light d-flex justify-contents -md-space evenly align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
             <div className="d-flex flex-md-column align-items-md-start ">
               {/* <a  className='m-md-0 m-2' href='#home'>Home</a> */}
-              <a
-                className="m-md-0 m-2"
-                // href='#Our Vision'
-
-                // onClick={
-                //   ()=>{window.scrollTo(0, document.getElementById("Our Vision").offsetTop-100)  }
-                // }
-
-                onClick={() => {
-                  window.scrollTo({
-                    top: document.getElementById("Our Vision").offsetTop - 100,
-                    behavior: "auto",
-                  });
-                }}
-              >
-                Our Vision
-              </a>
+              
               <a
                 className="m-md-0 m-2"
                 // href='#about'
@@ -51,9 +35,30 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
+          <div className="col-md-2 text-light  d-flex justify-contents -md-space evenly  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
             <div className="d-flex flex-md-column flex-row align-items-md-start">
+              
               <a
+                className="m-md-0 m-2"
+                // href='#Our Network'
+                // onClick={
+                //   ()=>{window.scrollTo(0, document.getElementById("Our Network").offsetTop-100)  }
+                // }
+                onClick={() => {
+                  window.scrollTo({
+                    top: document.getElementById("Our Network").offsetTop - 100,
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Our Network
+              </a>
+            </div>
+          </div>
+
+          <div className="col-md-2 text-light  d-flex justify-contents -md-space evenly  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
+            <div className="d-flex flex-md-column flex-row align-items-md-start">
+            <a
                 className="m-md-0 m-2"
                 // href='#How it Works'
                 onClick={() => {
@@ -65,46 +70,30 @@ const Footer = () => {
               >
                 How it works
               </a>
-              <a
-                className="m-md-0 m-2"
-                // href='#Our network'
-                // onClick={
-                //   ()=>{window.scrollTo(0, document.getElementById("Our network").offsetTop-100)  }
-                // }
-                onClick={() => {
-                  window.scrollTo({
-                    top: document.getElementById("Our network").offsetTop - 100,
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                Our Network
-              </a>
-            </div>
-          </div>
-
-          <div className="col-md-2 text-light  d-flex justify-content-md-start  align-items-md-end mb-3  mb-md-0 mt-3  mt-md-0">
-            <div className="d-flex flex-md-column flex-row align-items-md-start">
-              <a className="m-md-0 m-2" href="#">
-                Terms and conditions
-              </a>
-              <a className="m-md-0 m-2" href="#">
-                Privacy policy
-              </a>
+              
             </div>
           </div>
         </div>
 
         <hr className={classes.line} />
 
-        <div className="d-flex flex-md-row  align-items-md-center align-items-start justify-content-center justify-content-md-start mb-4">
-          <img className="m-1" src={faceBook} />
+        
+        <div className="d-flex flex-md-row  align-items-md-center align-items-start justify-content-center justify-content-md-start mb-4 ml-3 mr-3">
+        <a href="https://www.facebook.com/people/Impact-Ecosystem/100089897823244/" target="_blank">
+          <img className="m-3" src={faceBook}  />
+          </a>
 
-          <img className="m-1" src={twitter} />
+        
+         <a href="https://twitter.com/iemoneyhq" target={"_blank"} >          
+          <img className="m-3" src={twitter} />
+        </a>
+         <a href="https://www.linkedin.com/company/impact-ecosystem/about/?viewAsMember=true" target={"_blank"}>
+          <img className="m-3" src={linkdin} />
+        </a>
 
-          <img className="m-1" src={linkdin} />
-          
-          <img className="m-1" src={instagram} />
+        <a href="https://www.instagram.com/ie.moneyhq/" target={"_blank"}> 
+          <img className="m-3" src={instagram} />
+        </a>  
         </div>
       </div>
     </div>

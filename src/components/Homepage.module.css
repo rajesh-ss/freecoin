@@ -1,14 +1,19 @@
+@font-face {
+    font-family: "helveticabold";
+    src: url(../../hellbold.ttf);
+}
+@font-face {
+    font-family: "helllight";
+    src: url(../../HelveticaNeue\ Thin.ttf);
+}
 
-/* *{
-    font:Helvetica Neue;
-} */
 
 .homepage{
     height: 100vh;
     width: 100%;
     background-image: url('../assets/hom.png');
     background-size: cover;
-    -ms-background-position-x: center;
+    -ms-background-position-x: center ;
     -ms-background-position-y: top;
     background-position: center top;
     /* margin: 5% 0; */
@@ -22,10 +27,10 @@
 
 
 .homepage p{
-    color: var(--unnamed-color-f2f2f2);
+    color: var(#f2f2f2);
     text-align: center;
     font-size: 5rem;
-    font-family: Helvetica Neue;
+    font-family: "hellight";
     letter-spacing: -2px;
     color: #F2F2F2;
     margin: 0;
@@ -36,6 +41,15 @@
 #impab{
     /* border: 1px solid black; */
     font-weight: bold;
+    font-family: "helveticabold";
+    
+}
+#impab1{
+    /* border: 1px solid black; */
+    font-weight: lighter;
+    font-family: "helllight";
+    
+    
 }
 
 @media only screen and (max-width: 800px) {

@@ -1,4 +1,14 @@
+@font-face {
+  font-family: "hellbold";
+  src: url(/Helvetica\ Neu\ Bold.ttf);
+}
 
+@font-face {
+  font-family: "helllight";
+  src: url(/HelveticaNeue\ Light.ttf);
+}
+
+margin
 
 .outCont{
     height: auto;
@@ -28,9 +38,10 @@
 .mainTxt{
     color: #262626;
     text-transform: uppercase;
-    font:Helvetica Neue;
+    font-family: "hellbold";
     letter-spacing: 4.32px;
-    font-size: 48px;
+    font-size: 38px;
+    margin-top: 10%;
 }
 
 ol {
@@ -45,14 +56,15 @@ ol {
     counter-increment: item;
     margin-bottom: 5px;
     font-size: 20px;
-    font-family: Helvetica;
-    letter-spacing: 3.24px;
+    font-family: "helllight";
+    letter-spacing: 3.14px;
     color: #262626;
     font-style: normal;
     width: 75%;
     /* border: 1px solid black; */
     display: flex;
     padding: 0;
+    font-weight: 700;
 
   }
 
@@ -70,6 +82,7 @@ ol {
 
     display: flex;
     background-color: #2F84F1;
+    font-family: "helllight";
     content: "";
     width: 15px;
     height: 15px;
@@ -86,6 +99,7 @@ ol {
 
     display: flex;
     background-color: #09A503;
+    font-family: "helllight";
     content: "";
     width: 15px;
     height: 15px;
@@ -188,6 +202,9 @@ ol {
         max-width: 100%;
         margin: 2% 0;
         margin-left: 2%;
+        font-family: "helllight";
+        font-weight: 900;
+    
      
       }
 

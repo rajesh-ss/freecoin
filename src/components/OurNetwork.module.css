@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "hellbold";
+    src: url(/Helvetica\ Neu\ Bold.ttf);
+}
 
 .cont{
 
@@ -77,7 +80,8 @@
 .mainTxt{
     color: #262626;
     text-transform: uppercase;
-    font:Helvetica Neue;
+    font-family: "hellbold";
+    font-weight: lighter;
     letter-spacing: 4.32px;
     font-size: 38px;
 }

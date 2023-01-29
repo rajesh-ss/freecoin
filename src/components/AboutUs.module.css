@@ -1,4 +1,15 @@
-
+@font-face {
+    font-family: "helllight";
+    src: url(/HelveticaNeueLt.ttf);
+}
+@font-face {
+    font-family: "hellmed";
+    src: url(/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+    font-family: "hellbold";
+    src: url(/Helvetica\ Neu\ Bold.ttf);
+}
 
 .cont{
 
@@ -12,28 +23,35 @@
     margin: 0;
 }
 
-.cont h2, .cont h1, .cont p{
-    font-family:"HelveticaBold1";
-}
+
 
 .cont h2{
     color: #213A59;
     letter-spacing: 0.96px;
     font-size: 28px;
+    font-weight: bold;
+    font-family: "helllight";
+    
 }
 
 .cont h1{
     color: #262626;
     font-size: 62px;
     letter-spacing: -1.84px;
+    font-weight: bold;
+    font-family: "helllight";
+    font-weight: bold;
 }
 
 .cont p{
-    font-size: 18px;
-    letter-spacing: 0.64px;
+    font-size: 19px;
+    letter-spacing: 0.62px;
     color: #262626;
     max-width: 40%;
     margin-top: 15px;
+    font-family: "helllight";
+    font-weight: bolder;
+    
 }
 
 .cont button{
@@ -44,5 +62,7 @@
     border-radius: 25px;
     padding: 0;
     size: 10px;
+    font-size: 19px;
+    font-family: "helllight";
 }
 

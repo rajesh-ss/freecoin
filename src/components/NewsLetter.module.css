@@ -24,6 +24,7 @@
         color: #262626;
             font-family: Helvetica Neue;
             font-size: 3.25rem;
+            font-family: "hellmed";
             text-transform: uppercase;
             letter-spacing: 0.9px;
             max-width: 75%;
@@ -33,7 +34,7 @@
 
 .subs{
     color: #969393;
-        font-family: Helvetica Neue;
+    font-family: "hellmed";
         font-size: 1.625rem;
         letter-spacing: 0.9px;
         text-align: center;
@@ -44,6 +45,10 @@
     background-color: #969393;
     width: 90%;
     height: 1px;
+    @font-face {
+        font-family: "hellmed";
+        src: url(/HelveticaNeue\ Medium.ttf);
+    }
     
 }
 
@@ -74,7 +79,7 @@
     align-items: center;
     background-color: #e0e0e0;
     border-radius: 7px;
-    width: 120%;
+    
     /* border: 1px solid black; */
 }
 
@@ -130,7 +135,7 @@
 
         .subs {
             color: #969393;
-            font-family: Helvetica Neue;
+            font-family: "hellmed";
             font-size: 1.225rem;
             letter-spacing: 0.9px;
             width: 100%;
@@ -177,7 +182,7 @@
 
     .subs {
         color: #969393;
-        font-family: Helvetica Neue;
+        font-family: "hellmed";
         font-size: 1.225rem;
         letter-spacing: 0.9px;
         width: 100%;
@@ -223,7 +228,7 @@
 
     .subs {
         color: #969393;
-        font-family: Helvetica Neue;
+        font-family: "hellmed";
         font-size: 1.225rem;
         letter-spacing: 0.9px;
         width: 100%;
