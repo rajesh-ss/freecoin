@@ -1,7 +1,7 @@
 import classes from "./AboutUs.module.css";
 
 const AboutUs = () => {
-  const custom = classes.cont + " mt-5 mb-0 mt-md-0";
+  const custom = "mt-5 mb-0 mt-md-0 "+classes.cont ;
   return (
     <>
       <div className={custom} id="about">
@@ -15,6 +15,7 @@ const AboutUs = () => {
         <button
           type="button"
           class="btn mt-md-5 btn-sm container-md text-center"
+          id={classes['bbtt']}
         >
           Join our Waitlist
         </button>
