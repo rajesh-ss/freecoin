@@ -1,67 +1,56 @@
-
-
-.cont{
-
-    height: 80vh;
+.cont {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+    margin: 0 0 10px 0;
 }
 
-.cont h1{
-
-    /* color: #262626;
-    font-family: Helvetica ;
-    font-size: 3rem;
+.cont h1 {
+    color: #262626;
+    font-family: Helvetica Neue;
+    font-size: 3.25rem;
+    font-family: "hellmed";
     text-transform: uppercase;
-    letter-spacing: 0.383rem;
-    max-width: 80%;
-    text-align: center; */
-
-        color: #262626;
-            font-family: Helvetica Neue;
-            font-size: 3.25rem;
-            font-family: "hellmed";
-            text-transform: uppercase;
-            letter-spacing: 0.9px;
-            max-width: 75%;
-            text-align: center;
-            font-weight: bold;
+    letter-spacing: 0.9px;
+    max-width: 75%;
+    text-align: center;
+    font-weight: bold;
 }
 
-.subs{
+.subs {
     color: #969393;
     font-family: "hellmed";
-        font-size: 1.625rem;
-        letter-spacing: 0.9px;
-        text-align: center;
-        font-weight: normal;
+    font-size: 1.625rem;
+    letter-spacing: 0.9px;
+    text-align: center;
+    font-weight: normal;
 }
 
-.line{
+.line {
     background-color: #969393;
     width: 90%;
     height: 1px;
+    margin: 0 0 20px 0;
+
     @font-face {
         font-family: "hellmed";
         src: url(/HelveticaNeue\ Medium.ttf);
     }
-    
+
 }
 
-.frm{
+.frm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
+    max-width: 100%;
 }
 
 
-.btn{
+.btn {
 
     background-color: #4b8fe8;
     color: #F2F2F2;
@@ -70,20 +59,24 @@
     height: 50px;
     width: 35%;
     border: 0px solid #2F84F1;
+
 }
 
-.resfom{
+.btn:hover {
+    opacity: 0.8;
+}
+
+.resfom {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #e0e0e0;
     border-radius: 7px;
-    
-    /* border: 1px solid black; */
+
 }
 
-.inp{
+.inp {
     background-color: #e0e0e0;
     color: #262626;
     border-radius: 7px;
@@ -91,148 +84,39 @@
     height: 50px;
     width: 350px;
     border: 0px solid #2F84F1;
-    margin: 0 10px;
-    
+    margin: 0 10px 0 0;
 }
 
-.subsContainer{
-    
+.inp:focus {
+    border: 0px solid black;
+    outline: none;
+}
+
+.subsContainer {
     margin-top: 10px;
 }
 
-@media  (max-width: 992px) {
-    
-    .resfom{
-        flex-direction: row;
-        width: 150%;
-        height: 39%;
-        justify-content: space-between;
-        margin-top: 10px;
-       
-    }
 
- .btn{
-        width: 35%;
-        margin: 10px 0px;
-        padding: 10px;
-       
-        
-    }
-    .inp{
-    width: 40%;
-    
-  
-    }
-
- .subsContainer {
-           width: 100%;
-            margin-top: 10px;
-        }
-
-    .cont{
-        margin: 5% 0;
-    }
-
-        .subs {
-            color: #969393;
-            font-family: "hellmed";
-            font-size: 1.225rem;
-            letter-spacing: 0.9px;
-            width: 100%;
-            text-align: center;
-            font-weight: normal;
-        }
-}
-
-
-
-@media (max-width: 375px) {
+@media (max-width: 750px) {
 
     .resfom {
-        flex-direction: row;
-        width: 120%;
-        height: 39%;
-        justify-content: space-between;
-        margin-top: 10px;
-
-    }
-
-    .btn {
-        width: 35%;
-        margin: 10px 0px;
-        padding: 10px;
-
-
+        max-width: 100%;
+        padding: 0;
+        flex-direction: column;
     }
 
     .inp {
-        width: 40%;
-
-
-    }
-
-    .subsContainer {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .cont {
-        margin: 5% 0;
-    }
-
-    .subs {
-        color: #969393;
-        font-family: "hellmed";
-        font-size: 1.225rem;
-        letter-spacing: 0.9px;
-        width: 100%;
+        max-width: 100%;
+        margin: 0;
         text-align: center;
-        font-weight: normal;
-    }
-}
-
-
-@media (max-width: 390px) {
-
-    .resfom {
-        flex-direction: row;
-        width: 120%;
-        height: 39%;
-        justify-content: space-between;
-        margin-top: 10px;
-
     }
 
     .btn {
-        width: 35%;
-        margin: 10px 0px;
-        padding: 10px;
-
-
-    }
-
-    .inp {
-        width: 40%;
-
-
-    }
-
-    .subsContainer {
+        margin: 10px 0 10px 0;
         width: 100%;
-        margin-top: 10px;
     }
 
     .cont {
-        margin: 5% 0;
-    }
-
-    .subs {
-        color: #969393;
-        font-family: "hellmed";
-        font-size: 1.225rem;
-        letter-spacing: 0.9px;
-        width: 100%;
-        text-align: center;
-        font-weight: normal;
+        margin: 0 0 20px 0;
     }
 }

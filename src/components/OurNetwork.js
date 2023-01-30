@@ -22,27 +22,23 @@ const OurNetwork = () => {
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img6}></img>
-                
               </div>
             </div>
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img2}></img>
-                
               </div>
             </div>
 
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img3}></img>
-                
               </div>
             </div>
 
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img4}></img>
-                
               </div>
             </div>
 
@@ -55,7 +51,6 @@ const OurNetwork = () => {
             <div className="col-lg-4 col-xs-6 mb-2 mt-2 mw-100">
               <div class={conta}>
                 <img className="img-fluid" src={img7}></img>
-                
               </div>
             </div>
           </div>

@@ -2,16 +2,18 @@
     font-family: "helllight";
     src: url(/HelveticaNeueLt.ttf);
 }
+
 @font-face {
     font-family: "hellmed";
     src: url(/HelveticaNeue\ Medium.ttf);
 }
+
 @font-face {
     font-family: "hellbold";
     src: url(/Helvetica\ Neu\ Bold.ttf);
 }
 
-.cont{
+.cont {
 
     width: 100%;
     height: 60vh;
@@ -19,22 +21,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid black; */
     margin: 0;
 }
 
-
-
-.cont h2{
+.cont h2 {
     color: #213A59;
     letter-spacing: 0.96px;
     font-size: 28px;
     font-weight: bold;
     font-family: "helllight";
-    
 }
 
-.cont h1{
+.cont h1 {
     color: #262626;
     font-size: 62px;
     letter-spacing: -1.84px;
@@ -43,7 +41,7 @@
     font-weight: bold;
 }
 
-.cont p{
+.cont p {
     font-size: 19px;
     letter-spacing: 0.62px;
     color: #262626;
@@ -51,10 +49,9 @@
     margin-top: 15px;
     font-family: "helllight";
     font-weight: bolder;
-    
 }
 
-.cont button{
+.cont button {
     width: 200px;
     height: 50px;
     color: #fff;
@@ -66,3 +63,8 @@
     font-family: "helllight";
 }
 
+@media only screen and (max-width: 750px) {
+    .cont p {
+        max-width: 80%;
+    }
+}

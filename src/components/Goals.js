@@ -10,7 +10,6 @@ const Goals = () => {
   const custom = "d-inline-block " + classes.imger;
 
   return (
-    // <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center mt-3 mt-md-0 mb-5 mb-md-0  mr-0 ml-0">
     <div className={classes.conatiner}>
       <div className={classes.headerContainer}>
         <h1 className={classes.textPeople}>
@@ -25,14 +24,7 @@ const Goals = () => {
       </div>
 
       <div className={classes.CarouselConatiner}>
-        <Carousel
-          className=""
-          autoplay={false}
-          responsive={3}
-          //  style="max-width:100%; max-height:200px !important;"
-        >
-          {/* <Carousel.Indicators></Carousel.Indicators>  */}
-          
+        <Carousel className="" autoplay={false} responsive={3}>
           <Carousel.Item>
             <img className="d-block img-fluid" src={img1} alt="First slide" />
           </Carousel.Item>
@@ -49,59 +41,6 @@ const Goals = () => {
       </div>
     </div>
   );
-
-  //     let nam = 'mt-5 ';
-  //     nam+= classes.cont;
-
-  // return(
-  // <div className={nam}>
-
-  //     <div className="col-sm m-5 border border-primary">
-  //       <h2>OUR GOALS</h2>
-  //     </div>
-  //     <div className="col-sm m-5 border border-primary">
-  //       One of three columns
-  //     </div>
-  //     <div className="col-sm m-5 border border-primary">
-  //       One of three columns
-  //     </div>
-  //     <div className="col-sm m-5 border border-primary force-overflow">
-  //       One of three columns
-  //     </div>
-  //     <div className="col-sm m-5 border border-primary force-overflow">
-  //       One of three columns
-  //     </div>
-  //     <div className="col-sm m-5 border border-primary force-overflow">
-  //       One of three columns
-  //     </div>
-
-  // </div>
-  // );
 };
 
 export default Goals;
-
-{
-  /**
-      <div className='m-2 border border-primary flex-shrink-1'>
-     
-            <img className = {classes.myimg} src={img1}></img>
-          
-        </div>
-        <div className='m-2 ml-2'>
-
-            <img className = {classes.myimg} src={img2}></img>
-   
-        </div>
-        <div className='m-2 ml-2'>
-        
-            <img className = {classes.myimg} src={img3}></img>
-     
-        </div>
-        <div className='m-2 ml-2'>
-        
-            <img className = {classes.myimg} src={img4}></img>
-     
-        </div>
-*/
-}

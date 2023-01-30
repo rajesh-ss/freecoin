@@ -2,26 +2,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Form from "react-bootstrap/Form";
-import classes from "./Navbar.css";
-import Button from "react-bootstrap/Button";
+import "./Navbar.css";
 import logo from "../../assets/Group78.svg";
 
 const MyNavbar = () => {
   return (
     <>
-      {/* <Navbar className='nav' expand="lg">
-        <Container>
-          <Navbar.Brand className= 'nav-txt'> <img className='nav-logo' src={logo}/></Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link  className= 'nav-txt' href="#home">About Us</Nav.Link>
-            <Nav.Link className= 'nav-txt' href="#features">How it Works</Nav.Link>
-            <Nav.Link className= 'nav-txt' href="#pricing">Our Vision</Nav.Link>
-            <Nav.Link className= 'nav-txt' href="#pricing">Our Network</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar> */}
       {/* ------------------------------------------------- */}
       <Navbar className="nav navbar-expand-lg fixed-top" expand="lg">
         <Container fluid>
@@ -36,10 +22,9 @@ const MyNavbar = () => {
               style={{ maxHeight: "500px" }}
               navbarScroll
             >
-              {/* href="#How it Works"
-            <Nav.Link  className= 'nav-txt ' href="#home">About Us</Nav.Link> */}
               <Nav.Link
                 className="nav-txt"
+                id="abtUs"
                 onClick={() => {
                   window.scrollTo(
                     0,
@@ -51,7 +36,7 @@ const MyNavbar = () => {
               </Nav.Link>
               <Nav.Link
                 className="nav-txt"
-                // href="#Our Vision"
+                id="howWorks"
                 onClick={() => {
                   window.scrollTo(
                     0,
@@ -63,7 +48,7 @@ const MyNavbar = () => {
               </Nav.Link>
               <Nav.Link
                 className="nav-txt"
-                // href="#Our Network"
+                id="ourNtw"
                 onClick={() => {
                   window.scrollTo(
                     0,
@@ -73,7 +58,11 @@ const MyNavbar = () => {
               >
                 Our Network
               </Nav.Link>
-              <button type="button" className="btn-waitlist nav-txt">
+              <button
+                id="waitList"
+                type="button"
+                className="btn-waitlist nav-txt"
+              >
                 Join our Waitlist
               </button>
             </Nav>

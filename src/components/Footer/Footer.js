@@ -22,7 +22,6 @@ const Footer = () => {
               
               <a
                 className="m-md-0 m-2"
-                // href='#about'
                 onClick={() => {
                   window.scrollTo(
                     0,
@@ -40,10 +39,6 @@ const Footer = () => {
               
               <a
                 className="m-md-0 m-2"
-                // href='#Our Network'
-                // onClick={
-                //   ()=>{window.scrollTo(0, document.getElementById("Our Network").offsetTop-100)  }
-                // }
                 onClick={() => {
                   window.scrollTo({
                     top: document.getElementById("Our Network").offsetTop - 100,
@@ -60,7 +55,6 @@ const Footer = () => {
             <div className="d-flex flex-md-column flex-row align-items-md-start">
             <a
                 className="m-md-0 m-2"
-                // href='#How it Works'
                 onClick={() => {
                   window.scrollTo(
                     0,

@@ -3,7 +3,7 @@
     src: url(/HelveticaNeue\ Light.ttf);
 }
 
-.homepage{
+.homepage {
     height: 100vh;
     width: 100%;
     background-image: url('../assets/MaskGroup5.png');
@@ -11,34 +11,30 @@
     -ms-background-position-x: center;
     -ms-background-position-y: top;
     background-position: left top;
-    /* margin: 5% 0; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin: 0;
-    /* border: 1px solid black; */
 }
 
-.homeTxt{
+.homeTxt {
 
     margin-bottom: 15%;
-    
+
 }
 
-.homeTxt h2{
+.homeTxt h2 {
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
     font-size: 80px;
     font-family: "helllight";
     font-weight: 400;
-
     letter-spacing: -2px;
     color: #F2F2F2;
     margin: 0;
-    /* border: 1px solid black; */
 }
 
-.homeTxt p{
+.homeTxt p {
     color: var(--unnamed-color-f2f2f2);
     text-align: center;
     font-size: 1.5rem;
@@ -48,24 +44,15 @@
 }
 
 @media only screen and (max-width: 800px) {
-
-
-    .homeTxt{
-
+    .homeTxt {
         margin-bottom: 15%;
     }
 
-    .homepage{
- 
-    }
-
-    .homeTxt h2{
-
+    .homeTxt h2 {
         font-size: 3rem;
-
     }
-    .homeTxt p{
+
+    .homeTxt p {
         font-size: .8rem;
     }
- 
 }

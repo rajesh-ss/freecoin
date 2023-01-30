@@ -2,31 +2,30 @@
     font-family: "helveticabold";
     src: url(../../hellbold.ttf);
 }
+
 @font-face {
     font-family: "helllight";
     src: url(../../HelveticaNeue\ Thin.ttf);
 }
 
 
-.homepage{
+.homepage {
     height: 100vh;
     width: 100%;
     background-image: url('../assets/hom.png');
     background-size: cover;
-    -ms-background-position-x: center ;
+    -ms-background-position-x: center;
     -ms-background-position-y: top;
     background-position: center top;
-    /* margin: 5% 0; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     margin-bottom: 2%;
-    /* border: 1px solid black; */
 }
 
 
-.homepage p{
+.homepage p {
     color: var(#f2f2f2);
     text-align: center;
     font-size: 5rem;
@@ -34,33 +33,28 @@
     letter-spacing: -2px;
     color: #F2F2F2;
     margin: 0;
-    /* border: 1px solid black; */
     font-weight: normal;
 }
 
-#impab{
-    /* border: 1px solid black; */
+#impab {
     font-weight: bold;
     font-family: "helveticabold";
-    
+
 }
-#impab1{
-    /* border: 1px solid black; */
+
+#impab1 {
     font-weight: lighter;
     font-family: "helllight";
-    
-    
 }
 
 @media only screen and (max-width: 800px) {
 
 
-    .homeTxt{
-
+    .homeTxt {
         margin-bottom: 15%;
     }
 
-    .homepage p{
+    .homepage p {
         font-size: 4rem;
     }
 }
