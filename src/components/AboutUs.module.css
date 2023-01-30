@@ -66,7 +66,7 @@
 
 #bbtt:hover {
     background-color: #213a59;
-    box-shadow: #213a59 0px 0px 1px 0px, #213a59 0px 0px .5px 0px;
+    box-shadow: #213a59 0px 0px 3px 0px, #213a59 0px 0px 1px 0px;
     color: #ffffff;
 }
 
