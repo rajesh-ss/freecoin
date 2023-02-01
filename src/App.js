@@ -15,18 +15,16 @@ function App() {
   return (
     <div id="rtt">
       <MyNavbar />
-
-      <Homepage></Homepage>
-
+      <Homepage/>
       <AboutUs />
-      <Goals></Goals>
-      <Philcur></Philcur>
+      <Goals/>
+      <Philcur/>
       {/* <Impact_eco /> */}
-      <HowItWorks></HowItWorks>
+      <HowItWorks/>
       {/* <Motivates /> */}
       <OurNetwork />
-      <NewsLetter></NewsLetter>
-      <Footer></Footer>
+      <NewsLetter/>
+      <Footer/>
     </div>
   );
 }

@@ -1,7 +1,12 @@
 import classes from "./AboutUs.module.css";
 
 const AboutUs = () => {
+
   const custom = "mt-5 mb-0 mt-md-0 "+classes.cont ;
+
+  const joinwaitList = ()=> window.open('https://tally.so/r/3jeRVE');
+
+
   return (
     <>
       <div className={custom} id="about">
@@ -15,7 +20,8 @@ const AboutUs = () => {
         <button
           type="button"
           class="btn mt-md-5 btn-sm container-md text-center"
-          id={classes['bbtt']}
+          id={classes['bbtt']  }
+          onClick = {joinwaitList}
         >
           Join our Waitlist
         </button>

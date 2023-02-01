@@ -6,6 +6,10 @@ import "./Navbar.css";
 import logo from "../../assets/Group78.svg";
 
 const MyNavbar = () => {
+
+  const joinwaitList = ()=> window.open('https://tally.so/r/3jeRVE');
+
+
   return (
     <>
       {/* ------------------------------------------------- */}
@@ -62,6 +66,7 @@ const MyNavbar = () => {
                 id="waitList"
                 type="button"
                 className="btn-waitlist nav-txt"
+                onClick={joinwaitList}
               >
                 Join our Waitlist
               </button>
